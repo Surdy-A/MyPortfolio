@@ -25,7 +25,7 @@ SECRET_KEY = 'uadgb+py@-j4@8tdvb5^md((t*u_mqyy74%^hfto(&t*#(!s*b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ajayisodiq.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'ajayisodiq.pythonanywhere.com']
 
 
 # Application definition
@@ -126,3 +126,6 @@ STATIC_ROOT = '/home/ajayisodiq/MyPortfolio/static'
 # STATICFILES_DIRS = [
 #     os.path.join(BASE_DIR, 'static'),
 # ]
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
